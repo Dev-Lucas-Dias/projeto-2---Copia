@@ -40,7 +40,7 @@ h2 {
 }
 h1,
 h2 {
-  color: black
+  color: black;
 }
 
 #about p {
@@ -51,11 +51,10 @@ h2 {
   margin-bottom: 24px;
 }
 #Eve p {
-padding: 0 2px 24px;
-margin-top: 4px;
+  padding: 0 2px 24px;
+  margin-top: 4px;
 }
 footer {
   text-align: center;
-  color:black
-  padding-bottom: 48px;
+  color: black;
 }
