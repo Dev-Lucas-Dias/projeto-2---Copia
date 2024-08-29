@@ -7,21 +7,12 @@
   font-family: "Alice" sans-serif;
   line-height: 150%;
   color: #573a37;
-}
-h1 {
-  line-height: 140%;
-  font-size: 40px;
-}
-h2 {
-  font-size: 24px;
-}
-h1,
-h2 {
-  color: #291b1a;
+  text-align: justify;
 }
 body * {
   width: 100%;
   background: url(./assets/bg-image.png) no-repeat cover;
+  line-height: 150%;
 }
 img {
   border-radius: 16px;
@@ -36,7 +27,31 @@ img {
   border-radius: 24px;
 }
 main {
-  box-sizing: border-box;
   padding: 0 24px 24px;
-  border: 1px solid black;
+}
+
+h1 {
+  line-height: 140%;
+  font-size: 40px;
+  margin-bottom: 4px;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+h1,
+h2 {
+  color: #291b1a;
+}
+
+#about p + p {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+#ingredients ul {
+  padding-left: 24px;
+  margin-bottom: 24px;
+}
+#preparation p {
+  padding: 24px;
 }
